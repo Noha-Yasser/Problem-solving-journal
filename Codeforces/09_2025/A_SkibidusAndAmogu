@@ -1,0 +1,19 @@
+java
+// Problem: A. Skibidus and Amog'u
+// Contest Link: https://codeforces.com/problemset/problem/2065/A
+
+
+import java.util.Scanner;
+
+public class SkibidusAndAmogu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            String a = sc.next();
+            String b = a.substring(0, a.length() - 2) + "i";
+            System.out.println(b);
+        }
+    }
+}
+```
